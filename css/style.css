@@ -91,6 +91,10 @@ img {
   padding: 24px 0;
 }
 
+.list-items {
+  position: relative;
+}
+
 .item:hover {
   color: var(--ocean);
 }
@@ -133,9 +137,9 @@ img {
   background-color: var(--navy-blue);
   padding: 188px 0;
   max-width: 1440px;
-  /*background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;*/
+  background-size: cover;
 }
 
 .header-hero {
@@ -182,6 +186,10 @@ img {
   background-color: var(--cloud);
   border-radius: 4px;
   margin-bottom: 8px;
+}
+
+.use {
+  width: 64px;
 }
 
 .section-two {
