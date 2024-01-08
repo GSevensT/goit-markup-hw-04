@@ -12,10 +12,6 @@
   --ocean: #404bbf;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
-  --box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);
-  --box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);
 }
 
 body {
@@ -137,6 +133,8 @@ img {
   background-color: var(--navy-blue);
   padding: 188px 0;
   max-width: 1440px;
+  background-image: linear-gradient(rgba(46, 47, 66, 07), rgba(46, 47, 66, 07))
+    url(../images/people-office-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -389,4 +387,6 @@ img {
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
+  display: flex;
+  flex-wrap: wrap;
 }
