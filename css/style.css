@@ -324,6 +324,17 @@ img {
   fill: var(--cloud);
 }
 
+.team-social-link:hover {
+  background-color: var(--ocean);
+}
+
+/*info section*/
+
+.customers-info {
+  width: 1440px;
+  height: 3200px;
+}
+
 .info-section {
   font-family: Roboto;
   font-size: 36px;
